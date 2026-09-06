@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tragaperras Profesional</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&family=Rye&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cabinet">
+        <div class="top-sign">
+            <h1>SUPER SLOT 777</h1>
+        </div>
+        
+        <div class="display-area">
+            <div class="reels-container">
+                <div class="reel" id="reel1">
+                    <div class="symbol">🍒</div>
+                    <div class="symbol">7️⃣</div>
+                    <div class="symbol">🍋</div>
+                </div>
+                <div class="reel" id="reel2">
+                    <div class="symbol">💎</div>
+                    <div class="symbol">🔔</div>
+                    <div class="symbol">🍇</div>
+                </div>
+                <div class="reel" id="reel3">
+                    <div class="symbol">🍒</div>
+                    <div class="symbol">BAR</div>
+                    <div class="symbol">🍋</div>
+                </div>
+                <div class="payline"></div>
+            </div>
+        </div>
+
+        <div class="info-panel">
+            <div class="display-box">
+                <span class="label">CRÉDITOS</span>
+                <span class="value" id="credits">0.00</span>
+            </div>
+            <div class="display-box">
+                <span class="label">APUESTA</span>
+                <span class="value" id="bet">1.00</span>
+            </div>
+            <div class="display-box">
+                <span class="label">GANANCIA</span>
+                <span class="value" id="win">0.00</span>
+            </div>
+        </div>
+
+        <div class="controls">
+            <div class="money-input">
+                <button id="btn-coin" class="btn-money">Insertar Moneda (1€)</button>
+                <button id="btn-bill" class="btn-money">Insertar Billete (10€)</button>
+            </div>
+            <div class="game-controls">
+                <button id="btn-max-bet" class="btn-game">APUESTA MÁX</button>
+                <button id="btn-spin" class="btn-spin">GIRAR</button>
+                <button id="btn-cashout" class="btn-game">COBRAR</button>
+            </div>
+        </div>
+        
+        <div class="coin-tray"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
